@@ -22,10 +22,10 @@ body{
 .nav_bar li{
     display: inline;
     padding-left: 20px;
-    color: #3C3C3C;
-    text-shadow: 5px 5px 10px gray;
+    color: green;
+    text-shadow: 5px 7px 10px gray;
     cursor: pointer;
-    font-size: 18px;
+    font-size: 26px;
 }
 
 #main_section{
@@ -130,7 +130,7 @@ img{
 }
 
 #project_section h1 span {
-    color: #F46060;
+    color: green;
 }
 
 .work_info {
@@ -202,7 +202,7 @@ img{
 
 #client_section{
     text-align: center;
-    margin-top: 70px;
+    margin: 200px 0 100px 0;
 }
 
 #client_section h3 {
@@ -249,4 +249,9 @@ footer h3 {
     width: 36.4px;
     height: 36px;
     cursor: pointer;
+}
+
+.footer_end_text {
+    margin-top: 20px;
+    font-size: 14px;
 }
