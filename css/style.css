@@ -77,6 +77,7 @@ body{
     font-size: 16px;
     outline: none;
     border: none;
+    color: #fff;
 }
 
 .right_side_content{
@@ -85,6 +86,9 @@ body{
 
 img{
     width: 100%;
+}
+.intro_bg {
+    background: url();
 }
 
 /* about section */
@@ -192,4 +196,29 @@ img{
     /* margin-top: 15px; */
     font-size: 64px;
     text-transform: uppercase;
+}
+
+/* footer */
+
+footer {
+    text-align: center;
+    margin: 60px 0 10px 0;
+}
+
+footer p {
+    color: #696871;
+    font-size: 24px;
+}
+
+footer h3 {
+    margin: 20px 0;
+    font-size: 36px;
+    color: #363958;
+    text-transform: capitalize;
+}
+
+.social_logo img {
+    width: 36.4px;
+    height: 36px;
+    cursor: pointer;
 }
