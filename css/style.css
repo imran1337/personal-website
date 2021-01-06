@@ -57,7 +57,7 @@ body{
 }
 
 .introduce_heading_two{
-    color: #FF8367;
+    color: red;
     margin: 5px 0 20px 0;
     font-size: 80px;
 }
@@ -73,7 +73,7 @@ body{
     font-family: Roboto, 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     border-radius: 6px;
     cursor: pointer;
-    background: linear-gradient(380deg, #FF8063, #F46060);
+    background: linear-gradient(380deg, #f89079, #be0909);
     font-size: 16px;
     outline: none;
     border: none;
@@ -164,7 +164,7 @@ img{
 #work_inquiry_section{
     width: 906px;
     height: 225px;
-    background: linear-gradient(138.38deg, #5D69E9 -7.79%, #4225B6 98.72%);
+    background: linear-gradient(138.38deg, #8c93e9 -7.79%, #3300ff 98.72%);
     position: relative;
     left: 10%;
     border-radius: 10px;
@@ -198,6 +198,34 @@ img{
     text-transform: uppercase;
 }
 
+/* client */
+
+#client_section{
+    text-align: center;
+    margin-top: 70px;
+}
+
+#client_section h3 {
+    font-size: 1.7rem;
+    line-height: 1.333;
+    text-transform: uppercase;
+    letter-spacing: .25rem;
+    color: #39b54a;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#client_section p {
+    font-size: 4.4rem;
+    margin: 0 0 40px 0;
+    color: #e26144d5;
+}
+
+.client_images img{
+    max-width: 100px;
+    cursor: pointer;
+}
+
 /* footer */
 
 footer {
@@ -213,7 +241,7 @@ footer p {
 footer h3 {
     margin: 20px 0;
     font-size: 36px;
-    color: #363958;
+    color: #39b54a;
     text-transform: capitalize;
 }
 
