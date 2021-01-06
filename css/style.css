@@ -22,7 +22,7 @@ body{
 .nav_bar li{
     display: inline;
     padding-left: 20px;
-    color: green;
+    color: rgba(0, 0, 0, 0.753);
     text-shadow: 5px 7px 10px gray;
     cursor: pointer;
     font-size: 26px;
